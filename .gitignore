@@ -1,0 +1,3 @@
+*.keras
+logs.txt
+.ipynb_checkpoints/
