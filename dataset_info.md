@@ -31,15 +31,14 @@ Naming conventions vary a bit, but first brackets always tell the target instrum
 
 Examples from the set:
 
-'228__[pia][nod][pop_roc]1437__1.wav'<br>
-    PIANO, NODRUMS, POP ROCK
+**'228__[pia][nod][pop_roc]1437__1.wav'**  
+ PIANO, NODRUMS, POP ROCK
 
-'207__[voi][dru][cou_fol]2414__3.wav'<br>
-    HUMAN VOICE, DRUMS, COUNTRY FOLK
+**'207__[voi][dru][cou_fol]2414__3.wav'**  
+ HUMAN VOICE, DRUMS, COUNTRY FOLK
 
-'[cel][cla]0080__1.wav'<br>
-    CELESTA, CLASSICAL
- 
+**'[cel][cla]0080__1.wav'**  
+ CELESTA, CLASSICAL
   
 Amount of audio files per instrument:<br>
 
@@ -71,16 +70,21 @@ Each audio file is followed by a .txt file that includes the instruments present
 
 For example:
 
-'01 - Inolvidable-3.txt'
+'01 - Inolvidable-3.txt'<br>
 '01 - Inolvidable-3.wav'
 
 ``cat '01 - Inolvidable-3.txt'``<br>
-
+```text
 pia
 voi
+```
 
-Amount of audio clips that have n instruments: {n, clips_amount}:
+Audio clip amount with n different instruments:
 
-Testing part1: {1: 302, 2: 396, 3: 98, 4: 11}
-Testing part2: {1: 578, 2: 567, 3: 132, 4: 22, 5: 2}
-Testing part3: {1: 356, 2: 315, 3: 88, 4: 6, 5: 1}
+| Instruments | Part 1 | Part 2 | Part 3 |
+|---------------|--------|--------|--------|
+| 1             | 302    | 578    | 356    |
+| 2             | 396    | 567    | 315    |
+| 3             | 98     | 132    | 88     |
+| 4             | 11     | 22     | 6      |
+| 5             | -      | 2      | 1      |
