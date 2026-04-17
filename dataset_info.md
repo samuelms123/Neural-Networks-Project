@@ -31,18 +31,31 @@ Naming conventions vary a bit, but first brackets always tell the target instrum
 
 Examples from the set:
 
-'228__[pia][nod][pop_roc]1437__1.wav'
+'228__[pia][nod][pop_roc]1437__1.wav'<br>
     PIANO, NODRUMS, POP ROCK
 
-'207__[voi][dru][cou_fol]2414__3.wav'
+'207__[voi][dru][cou_fol]2414__3.wav'<br>
     HUMAN VOICE, DRUMS, COUNTRY FOLK
 
-'[cel][cla]0080__1.wav'
+'[cel][cla]0080__1.wav'<br>
     CELESTA, CLASSICAL
+ 
+  
+Amount of audio files per instrument:<br>
 
-Amount of audio files per instrument:
-
-{'cel': 388, 'cla': 505, 'flu': 451, 'gac': 637, 'gel': 760, 'org': 682, 'pia': 721, 'sax': 626, 'tru': 577, 'vio': 580, 'voi': 778}
+```python
+'cel': 388, 
+'cla': 505, 
+'flu': 451, 
+'gac': 637, 
+'gel': 760, 
+'org': 682, 
+'pia': 721, 
+'sax': 626, 
+'tru': 577, 
+'vio': 580, 
+'voi': 778
+```
 
 Each audio file is excerpt of 3 seconds from over 2000 distinct recordings.
 
@@ -61,7 +74,8 @@ For example:
 '01 - Inolvidable-3.txt'
 '01 - Inolvidable-3.wav'
 
-cat '01 - Inolvidable-3.txt'
+``cat '01 - Inolvidable-3.txt'``<br>
+
 pia
 voi
 
